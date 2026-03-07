@@ -17,3 +17,15 @@ let mahsulot = (data) => {
 }
 
 console.log(mahsulot(arr));
+
+let str = "javascript dasturlash"
+
+let analiz = function(data){
+    let arr = data.split("")
+    let unliHarflar = ["a", "e", "i", "u", "o"]
+    let count = arr.filter((s) => unliHarflar.includes(s)).length
+    let upper = data.toUpperCase()
+    return {vowels: arr, count,upper}
+}
+
+console.log(analiz(str));
