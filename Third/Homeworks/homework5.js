@@ -21,7 +21,7 @@ let webbrain = {
   },
 };
 
-let total = 0;
+let total = 0; 
 
 for (let key in webbrain) {
   let value = webbrain[key];
