@@ -26,6 +26,18 @@ function sum(numbers) {
 
   return total;
 }
-
-console.log(sum([])); // 0
+  
+console.log(sum([])); 
 console.log(sum([1, 5.2, 4, 0, -1])); 
+
+
+// ==================================================
+
+function findAveragee(array){
+  let sum = array.reduce((acc,curr) => acc + curr, 0)
+  return sum / array.length
+}
+
+console.log(findAveragee([1,1,1])); 
+console.log(findAveragee([1,2,3])); 
+console.log(findAveragee([1,2,3,4])); 
