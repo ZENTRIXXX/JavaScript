@@ -14,7 +14,7 @@
 
 // getName.call({ ism: "Toshmat" }, 20, "Talaba")
 
-// // Apply
+// Apply
 // function getData(yil, joylashuv) {
 //     console.log(this.brend, yil, joylashuv);
 // }
